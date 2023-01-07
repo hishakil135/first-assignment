@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* Banner section */
+.header {
+  background-image: url("./images/think.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  text-align: right;
+}
+.banner-title {
+  padding: 216px 230px 24px 845px;
+  font-weight: 700;
+  font-size: 65px;
+  color: #dbbe3e;
+}
+.banner-description {
+  padding: 0 230px 32px 876px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6b3d27;
+}
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  color: whitesmoke;
+  width: 160px;
+  height: 64px;
+  background-color: #b1cc4e;
+  border-radius: 5px;
+  border: 0;
+  margin: 0 230px 166px 1210px;
+}
