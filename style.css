@@ -35,3 +35,33 @@
   border: 0;
   margin: 0 230px 166px 1210px;
 }
+/* main section */
+main {
+  max-width: 1141px;
+  margin: 130px auto;
+}
+/* failure section */
+.failure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  margin-right: 87px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 24px;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6b3d27;
+  padding-bottom: 16px;
+}
+
+.list li {
+  padding-bottom: 8px;
+  list-style-type: square;
+}
