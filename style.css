@@ -6,7 +6,7 @@
 }
 /* Banner section */
 .header {
-  background-image: url("./images/think.jpg");
+  background-image: url(./images/banner/banner1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -16,7 +16,7 @@
   padding: 216px 230px 24px 845px;
   font-weight: 700;
   font-size: 65px;
-  color: #dbbe3e;
+  color: #e9a456;
 }
 .banner-description {
   padding: 0 230px 32px 876px;
@@ -64,4 +64,114 @@ main {
 .list li {
   padding-bottom: 8px;
   list-style-type: square;
+}
+/* my class section */
+.my-class {
+  margin: 130px 0;
+}
+.myplan-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.all-plans {
+  display: flex;
+  justify-content: space-around;
+  gap: 86px;
+}
+.image1 {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+.plan-description {
+  font-size: 25px;
+  line-height: 29px;
+  color: #6b3d27;
+}
+/* main last section */
+.last {
+  height: 300px;
+  background-image: linear-gradient(to right, #005fac, rgba(0, 95, 172, 0)),
+    url("./images/watch.png");
+}
+.last-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: whitesmoke;
+  padding: 69px 617px 24px 64px;
+}
+.new-btn {
+  font-weight: 600;
+  font-size: 20px;
+  color: whitesmoke;
+  width: 160px;
+  height: 64px;
+  background-color: #b1cc4e;
+  border-radius: 5px;
+  border: 0;
+  margin: 0 916px 59px 64px;
+}
+/* footer section */
+.footer {
+  background-color: rgb(83, 121, 139);
+  height: 577px;
+}
+.footer-last {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.future {
+  padding: 130px 230px 130px 330px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: whitesmoke;
+  padding-bottom: 16px;
+}
+.foot-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: whitesmoke;
+  padding-bottom: 24px;
+}
+
+.icon {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.submit {
+  padding: 130px 230px 243px 330px;
+}
+.submit-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: whitesmoke;
+  padding-bottom: 31px;
+}
+.email {
+  width: 250px;
+  height: 64px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  border: 0;
+}
+.new-button {
+  font-weight: 600;
+  font-size: 20px;
+  color: whitesmoke;
+  width: 160px;
+  height: 64px;
+  background-color: #b1cc4e;
+  border-radius: 5px;
+  border: 0;
 }
